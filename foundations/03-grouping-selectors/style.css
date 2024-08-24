@@ -1,0 +1,13 @@
+.default {
+    background-color: black;
+    color: #fff;
+}
+
+.primary {
+    background-color: #FFEF00;
+}
+
+.default,
+.primary {
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
