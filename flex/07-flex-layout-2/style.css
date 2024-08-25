@@ -24,6 +24,69 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+/* My solution */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 1rem;
+}
+
+.cards {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  padding: 1rem;
+  width: 300px;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
